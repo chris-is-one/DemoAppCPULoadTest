@@ -59,6 +59,7 @@ class DemoActivity : Activity(), DemoActivityListener {
 
     //region Lifecycle Methods
     override fun onCreate(savedInstanceState: Bundle?) {
+        log("DemoActivity - onCreate()")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_demo)
 
@@ -326,5 +327,10 @@ class DemoActivity : Activity(), DemoActivityListener {
             }
             else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    override fun onDestroy() {
+        log("DemoActivity - onDestroy")
+        super.onDestroy()
     }
 }

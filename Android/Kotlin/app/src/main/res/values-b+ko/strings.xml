@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">연동 데모</string>
+    <string name="initializing">초기화 중…</string>
+    <string name="loading">로딩 중…</string>
+
+    <string name="show">송출</string>
+    <string name="load">로드</string>
+    <string name="destroy">삭제</string>
+
+    <string name="version">SDK 버전</string>
+
+    <string name="rewarded_video">보상형 동영상</string>
+    <string name="interstitial">인터스티셜</string>
+    <string name="banner">배너</string>
+
+    <string name="rewarded_dialog_header">영상 보상</string>
+    <string name="rewarded_dialog_message">보상을 받았습니다!</string>
+    <string name="close">닫기</string>
+
+</resources>
